@@ -1627,7 +1627,7 @@ summary.faqTXTextras span {
 @media (768px <= width <= 1023px) {
   .faqGRIDcontactContainer {
     width: calc(50cqw + 384px);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (1024px <= width <= 1279px) {
@@ -1819,6 +1819,30 @@ summary.faqTXTextras span {
   }
 }
 @media (768px <= width <= 1023px) {
+  .faqCONTACTicon svg {
+    width: 150px;
+    height: 150px;
+  }
+  .faqGRIDcontactcard {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .faqCONTACTtext {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .faqCONTACTheader {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+  }
+  .faqCONTACTlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 16px;
+  }
   .faqCONTACTheader,
   .faqCONTACTurl,
   .faqCONTACTurl a,
@@ -1838,6 +1862,10 @@ summary.faqTXTextras span {
   }
 }
 @media (1024px <= width <= 1279px) {
+  .faqCONTACTicon svg {
+    width: 120px;
+    height: 120px;
+  }
   .faqCONTACTheader,
   .faqCONTACTurl,
   .faqCONTACTurl a,
@@ -1863,6 +1891,10 @@ summary.faqTXTextras span {
   }
 }
 @media (1280px <= width <= 1749px) {
+  .faqCONTACTicon svg {
+    width: 120px;
+    height: 120px;
+  }
   .faqCONTACTlinks div a svg {
     display: none;
     fill: #6b6a69;
@@ -1888,6 +1920,10 @@ summary.faqTXTextras span {
   }
 }
 @media (min-width: 1750px) {
+  .faqCONTACTicon svg {
+    width: 120px;
+    height: 120px;
+  }
   .faqCONTACTlinks div a svg {
     display: none;
     fill: #6b6a69;
